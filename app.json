@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "JAI Pocket Lab",
+    "slug": "jai-pocket-lab",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jai.pocketlab",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Your location is used only when you tap Locate on the map.",
+        "NSMicrophoneUsageDescription": "Microphone access is used only for the sound meter."
+      }
+    },
+    "plugins": [
+      "expo-location"
+    ]
+  }
+}
